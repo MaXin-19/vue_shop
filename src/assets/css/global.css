@@ -6,3 +6,22 @@ body,
   margin:0;
   padding:0;
 }
+
+/* 覆盖默认样式最好写在全局的CSS中 */
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  margin-top: 20px;
+  font-size: 12px;
+  color: 20px;
+}
+
+.el-pagination {
+  margin-top: 15px;
+}
