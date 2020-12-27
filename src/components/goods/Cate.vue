@@ -51,6 +51,9 @@
         <el-form-item label="父级分类：">
           <!-- options 用来指定数据源 -->
           <!-- props 用来指定配置对象 -->
+          <!-- clearable可清除 -->
+          <!-- change-on-select可选一级菜单 -->
+          <!-- @change 选择项发生变化会触发 -->
           <el-cascader expand-trigger="hover" :options="parentCateList" :props="cascaderProps" v-model="selectedKeys" @change="parentCateChanged" clearable change-on-select>
           </el-cascader>
         </el-form-item>
