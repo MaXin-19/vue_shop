@@ -26,3 +26,19 @@ body,
 .el-pagination {
   margin-top: 15px;
 }
+
+.el-steps {
+  margin: 15px 0;
+}
+
+.el-step__title {
+  font-size: 12px;
+}
+/* 让级联选择器滚动条显示：给他高度 */
+.el-cascader-panel {
+  height: 400px;
+}
+/* 富文本编辑器的最小高度设置 */
+.ql-editor {
+  min-height: 300px;
+}

@@ -32,7 +32,12 @@ import {
   Cascader,
   Alert,
   Tabs,
-  TabPane
+  TabPane,
+  Steps,
+  Step,
+  CheckboxGroup,
+  Checkbox,
+  Upload
 } from 'element-ui'
 // 注册为全局组件
 Vue.use(Button)
@@ -65,6 +70,12 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
+
 // 把 Message弹框组件挂载到Vue的原型对象上，这样话每个组件都可以通过this访问到$message，也就是可以进行弹框提示
 // $message为自定义属性，可任意改名
 // 原型挂载的方式
